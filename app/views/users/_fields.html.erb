@@ -1,0 +1,17 @@
+<%= render 'shared/error_messages', :object => f.object %>
+<div class="field">
+  <%= f.label :name, "用户名" %><br/>
+  <%= f.text_field :name %>
+</div>
+<div class="field">
+  <%= f.label :email, "邮箱" %><br/>
+  <%= f.text_field :email %>
+</div>
+<div class="field">
+  <%= f.label :password %><br/>
+  <%= f.password_field :password %>
+</div>
+<div class="field">
+  <%= f.label :password_confirmation, "Confirmation" %><br/>
+  <%= f.password_field :password_confirmation %>
+</div>
